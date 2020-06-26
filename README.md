@@ -6,7 +6,6 @@ sudo apt update && apt install -y ruby-dev libffi-dev autoconf bison build-essen
 
 2. Update ruby gem environment and install bundler for dependecy management:
 ```
- gem update --system
  gem install bundler
 ```
 
@@ -20,7 +19,6 @@ apk add --update build-base mariadb-dev nodejs tzdata openjdk8-jre && rm -rf var
 
 2. Update ruby gem environment and install bundler for dependecy management:
 ```
- gem update --system
  gem install bundler
 ```
 
